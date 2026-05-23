@@ -1,0 +1,33 @@
+# Configurações do Site
+
+# Informações Básicas
+title: Ronivan Zorzan Barbosa
+description: >-
+  Cientista de Dados | Machine Learning Engineer | Especialista em IA
+  Transformando dados em soluções orientadas a negócios.
+
+# Tema
+theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+
+# Personalizações do Tema
+minimal:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/Ronizorzan" }
+    - { platform: linkedin, user_url: "https://linkedin.com/in/ronivan-zorzan-barbosa" }
+    - { platform: email,    user_url: "mailto:ronizorzan1992@gmail.com" }
+
+# Configurações de Build
+markdown: kramdown
+highlighter: rouge
+
+# Excluir arquivos desnecessários
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
