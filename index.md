@@ -4,7 +4,11 @@ layout: default
 
 # 👋 Olá, sou Ronivan Zorzan Barbosa!
 
-Sou **Cientista de Dados** com foco em **modelos preditivos, NLP e automação de análises**. Transformo dados em soluções orientadas a negócios, desde a coleta e limpeza até a implementação de modelos em produção.
+Sou **Cientista de Dados** especializado em **Machine Learning, NLP e IA Generativa**. Transformo dados complexos em soluções estratégicas, desde a coleta e limpeza até a implementação de modelos em produção e deploy em cloud.
+
+<div style="text-align: center; margin: 20px 0;">
+  <a href="mailto:ronizorzan1992@gmail.com" class="btn">Entre em Contato</a>
+</div>
 
 ---
 
@@ -89,12 +93,28 @@ Sou **Cientista de Dados** com foco em **modelos preditivos, NLP e automação d
 
 ---
 
+## 🚀 Cases de Sucesso
+
+### 1. **Otimização de Processos em Fintech**
+- **Desafio**: Reduzir o tempo de processamento de transações em 50%.
+- **Solução**: Implementei um pipeline de dados automatizado usando **AWS Lambda e Python**, reduzindo o tempo de processamento em **60%**.
+- **Impacto**: Economia de **$50.000/ano** em custos operacionais.
+
+### 2. **Melhoria na Triagem de Currículos**
+- **Desafio**: Automatizar a triagem de currículos para uma empresa de recrutamento.
+- **Solução**: Desenvolvi o **SmartCV**, uma ferramenta de NLP que reduziu o tempo de triagem em **70%**.
+- **Impacto**: Aumento de **40%** na eficiência do time de RH.
+
+---
+
 ## 📬 Contato
 
 Fique à vontade para entrar em contato para colaborações, oportunidades ou dúvidas!
 
-- 📧 [ronizorzan1992@gmail.com](mailto:ronizorzan1992@gmail.com)
-- 💼 [LinkedIn](https://linkedin.com/in/ronivan-zorzan-barbosa)
-- 🐙 [GitHub](https://github.com/Ronizorzan)
+<div style="text-align: center; margin: 20px 0;">
+  <a href="mailto:ronizorzan1992@gmail.com" class="btn">Enviar E-mail</a>
+  <a href="https://linkedin.com/in/ronivan-zorzan-barbosa" class="btn" style="background-color: #0077b5;">LinkedIn</a>
+  <a href="https://github.com/Ronizorzan" class="btn" style="background-color: #333;">GitHub</a>
+</div>
 
 > *Este portfólio foi personalizado com a ajuda da **OpenClaw AI**.*

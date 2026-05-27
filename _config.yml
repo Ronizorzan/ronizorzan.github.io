@@ -6,12 +6,9 @@ description: >-
   Cientista de Dados | Machine Learning Engineer | Especialista em IA.
   Transformando dados complexos em decisões estratégicas.
 
-# Tema Moderno e Fluido (Cayman)
-remote_theme: pages-themes/cayman@v0.2.0
-
 # Plugins
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed
 
 # Configurações de Build
 markdown: kramdown
