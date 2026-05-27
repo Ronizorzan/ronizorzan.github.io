@@ -34,6 +34,7 @@ body {
     font-size: 2.8rem;
     margin-bottom: 15px;
     font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .header p {
@@ -41,6 +42,7 @@ body {
     opacity: 0.9;
     max-width: 700px;
     margin: 0 auto;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 /* Main Content */
@@ -56,6 +58,7 @@ body {
     padding: 30px;
     margin-bottom: 40px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 4px solid #3498db;
 }
 
 .section:hover {
@@ -115,11 +118,20 @@ body {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #eee;
 }
 
 .project-images img:hover {
     transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-images .gif {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Links */
@@ -143,13 +155,15 @@ a:hover {
     border-radius: 5px;
     text-decoration: none;
     font-weight: 500;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
     border: none;
     cursor: pointer;
+    margin: 5px;
 }
 
 .btn:hover {
     background-color: #2980b9;
+    transform: translateY(-2px);
 }
 
 /* Footer */
@@ -160,6 +174,7 @@ a:hover {
     padding: 30px 0;
     margin-top: 50px;
     border-radius: 10px 10px 0 0;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .footer p {
@@ -180,5 +195,8 @@ a:hover {
     }
     .section h2 {
         font-size: 1.5rem;
+    }
+    .project-images img {
+        max-width: 100%;
     }
 }

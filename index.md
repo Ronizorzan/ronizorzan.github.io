@@ -54,15 +54,30 @@ Sou **Cientista de Dados** especializado em **Machine Learning, NLP e IA Generat
 ### 3. [SmartCV](https://github.com/Ronizorzan/SmartCV)
 **Tecnologias**: Python, NLP, Hugging Face, LangChain, RAG
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
-  <img src="assets/images/projeto-smartcv.png" alt="SmartCV - Imagem 1" style="max-width: 300px; height: auto; border-radius: 4px;">
-  <img src="assets/images/projeto-smartcv2.png" alt="SmartCV - Imagem 2" style="max-width: 300px; height: auto; border-radius: 4px;">
-  <img src="assets/images/projeto-smartcv3.png" alt="SmartCV - Imagem 3" style="max-width: 300px; height: auto; border-radius: 4px;">
+<div class="project-images">
+  <img src="assets/images/projeto-smartcv.png" alt="SmartCV - Imagem 1">
+  <img src="assets/images/projeto-smartcv2.png" alt="SmartCV - Imagem 2">
+  <img src="assets/images/projeto-smartcv3.png" alt="SmartCV - Imagem 3">
 </div>
 
 - Desenvolvi uma **ferramenta de análise de currículos** usando **NLP e LLMs** para extrair insights e automatizar a triagem de candidatos.
 - **Impacto**: Redução de **70% no tempo de triagem** de currículos e melhoria na qualidade das contratações.
 - **Tecnologias**: Utilizei **Hugging Face, LangChain e RAG** para processar e analisar documentos em PDF e texto.
+
+---
+
+### 4. [LinRecom](https://github.com/Ronizorzan/LinRecom)
+**Tecnologias**: Python, Machine Learning, Scikit-learn, Pandas, Recomendação de Conteúdo
+
+<div class="project-images">
+  <img src="assets/images/projeto-linrecom.png" alt="LinRecom - Imagem 1">
+  <img src="assets/images/projeto-linrecom2.gif" alt="LinRecom - Demonstração" class="gif">
+  <img src="assets/images/projeto-linrecom3.png" alt="LinRecom - Imagem 2">
+</div>
+
+- Desenvolvi um **sistema de recomendação de conteúdo** usando técnicas de **Machine Learning e filtragem colaborativa**.
+- **Impacto**: Aumento de **40% no engajamento** dos usuários em uma plataforma de conteúdo.
+- **Tecnologias**: Utilizei **Scikit-learn e Pandas** para criar um modelo de recomendação personalizado.
 
 ---
 
