@@ -16,12 +16,27 @@ Sou **Cientista de Dados** com foco em **modelos preditivos, NLP e automação d
 
 ### 1. [Detecção de Fraudes em Transações Digitais](https://github.com/Ronizorzan/deteccao-fraudes)
 **Tecnologias**: Python, Scikit-learn, XGBoost, Pandas, Matplotlib
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
+  <img src="assets/images/projeto-radar-de-fraudes1.png" alt="Radar de Fraudes - Imagem 1" style="max-width: 300px; height: auto; border-radius: 4px;">
+  <img src="assets/images/projeto-radar-de-fraudes2.png" alt="Radar de Fraudes - Imagem 2" style="max-width: 300px; height: auto; border-radius: 4px;">
+  <img src="assets/images/projeto-radar-de-fraudes3.png" alt="Radar de Fraudes - Imagem 3" style="max-width: 300px; height: auto; border-radius: 4px;">
+  <img src="assets/images/radar-de-fraudes(gif).gif" alt="Radar de Fraudes - Demonstração" style="max-width: 300px; height: auto; border-radius: 4px;">
+</div>
+
 - Desenvolvi um **modelo de classificação** com XGBoost para detectar fraudes, alcançando **76.2% de recall** e **F1-score de 78.1%**. 
 - **Impacto**: Redução de perdas financeiras com um **ROI de 1700%**. 
 - **Desafio**: Dados desbalanceados resolvidos com técnicas de **oversampling (SMOTE)**.
 
 ### 2. [Assistente Financeiro Automatizado](https://github.com/Ronizorzan/assistente-financeiro)
 **Tecnologias**: Python, Pandas, Plotly, AWS EC2, SQL
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
+  <img src="assets/images/projeto-financas.png" alt="Assistente Financeiro - Imagem 1" style="max-width: 300px; height: auto; border-radius: 4px;">
+  <img src="assets/images/projeto-financas2.png" alt="Assistente Financeiro - Imagem 2" style="max-width: 300px; height: auto; border-radius: 4px;">
+  <img src="assets/images/projeto-financas3.png" alt="Assistente Financeiro - Imagem 3" style="max-width: 300px; height: auto; border-radius: 4px;">
+</div>
+
 - Criei uma solução de **Business Intelligence** para analisar relatórios financeiros (PDFs/CSVs) e gerar **visualizações automáticas** com Plotly.
 - **Impacto**: Redução de **80% no tempo de processamento** de documentos financeiros.
 - **Deploy**: Implantei o projeto em uma **instância AWS EC2** e documentei o fluxo de trabalho no GitHub.
