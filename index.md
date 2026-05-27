@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 👋 Olá, sou Ronivan Zorzan Barbosa!
 
 Sou **Cientista de Dados** com foco em **modelos preditivos, NLP e automação de análises**. Transformo dados em soluções orientadas a negócios, desde a coleta e limpeza até a implementação de modelos em produção.
