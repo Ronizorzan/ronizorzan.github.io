@@ -83,6 +83,21 @@ Sou **Cientista de Dados** especializado em **Machine Learning, NLP e IA Generat
 
 ---
 
+### 5. [FeedbackFusion](https://github.com/Ronizorzan/FeedbackFusion)
+**Tecnologias**: Python, NLP, Sentiment Analysis, Scikit-learn, Pandas
+
+<div class="project-images">
+  <img src="assets/images/projeto-feedbackfusion1.png" alt="FeedbackFusion - Imagem 1">
+  <img src="assets/images/projeto-feedbackfusion2.png" alt="FeedbackFusion - Imagem 2">
+  <img src="assets/images/projeto-feedbackfusion3.png" alt="FeedbackFusion - Imagem 3">
+</div>
+
+- Desenvolvi um **pipeline de processamento de linguagem natural (NLP)** para analisar sentimentos e categorizar feedbacks de clientes em larga escala.
+- **Impacto**: Identificação automática de **85% das reclamações urgentes**, permitindo uma resposta rápida do time de suporte.
+- **Tecnologias**: Implementei modelos de classificação de texto e extração de entidades para gerar insights acionáveis a partir de dados não estruturados.
+
+---
+
 ## 🛠️ Habilidades Técnicas
 
 | Categoria               | Habilidades                                                                                     |
