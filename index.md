@@ -27,11 +27,11 @@ Sou **Cientista de Dados** especializado em **Machine Learning, NLP e IA Generat
 ### 1. [Detecção de Fraudes em Transações Digitais](https://github.com/Ronizorzan/deteccao-fraudes)
 **Tecnologias**: Python, Scikit-learn, XGBoost, Pandas, Matplotlib
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
-  <img src="assets/images/projeto-radar-de-fraudes1.png" alt="Radar de Fraudes - Imagem 1" style="max-width: 300px; height: auto; border-radius: 4px;">
-  <img src="assets/images/projeto-radar-de-fraudes2.png" alt="Radar de Fraudes - Imagem 2" style="max-width: 300px; height: auto; border-radius: 4px;">
-  <img src="assets/images/projeto-radar-de-fraudes3.png" alt="Radar de Fraudes - Imagem 3" style="max-width: 300px; height: auto; border-radius: 4px;">
-  <img src="assets/images/radar-de-fraudes(gif).gif" alt="Radar de Fraudes - Demonstração" style="max-width: 300px; height: auto; border-radius: 4px;">
+<div class="project-images">
+  <img src="assets/images/projeto-radar-de-fraudes1.png" alt="Radar de Fraudes - Imagem 1">
+  <img src="assets/images/projeto-radar-de-fraudes2.png" alt="Radar de Fraudes - Imagem 2">
+  <img src="assets/images/projeto-radar-de-fraudes3.png" alt="Radar de Fraudes - Imagem 3">
+  <img src="assets/images/radar-de-fraudes(gif).gif" alt="Radar de Fraudes - Demonstração" class="gif">
 </div>
 
 - Desenvolvi um **modelo de classificação** com XGBoost para detectar fraudes, alcançando **76.2% de recall** e **F1-score de 78.1%**. 
@@ -41,10 +41,10 @@ Sou **Cientista de Dados** especializado em **Machine Learning, NLP e IA Generat
 ### 2. [Assistente Financeiro Automatizado](https://github.com/Ronizorzan/assistente-financeiro)
 **Tecnologias**: Python, Pandas, Plotly, AWS EC2, SQL
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
-  <img src="assets/images/projeto-financas.png" alt="Assistente Financeiro - Imagem 1" style="max-width: 300px; height: auto; border-radius: 4px;">
-  <img src="assets/images/projeto-financas2.png" alt="Assistente Financeiro - Imagem 2" style="max-width: 300px; height: auto; border-radius: 4px;">
-  <img src="assets/images/projeto-financas3.png" alt="Assistente Financeiro - Imagem 3" style="max-width: 300px; height: auto; border-radius: 4px;">
+<div class="project-images">
+  <img src="assets/images/projeto-financas.png" alt="Assistente Financeiro - Imagem 1">
+  <img src="assets/images/projeto-financas2.png" alt="Assistente Financeiro - Imagem 2">
+  <img src="assets/images/projeto-financas3.png" alt="Assistente Financeiro - Imagem 3">
 </div>
 
 - Criei uma solução de **Business Intelligence** para analisar relatórios financeiros (PDFs/CSVs) e gerar **visualizações automáticas** com Plotly.
@@ -57,9 +57,9 @@ Sou **Cientista de Dados** especializado em **Machine Learning, NLP e IA Generat
 **Tecnologias**: Python, NLP, Hugging Face, LangChain, RAG
 
 <div class="project-images">
-  <img src="assets/images/projeto-smartcv.png" alt="SmartCV - Imagem 1">
-  <img src="assets/images/projeto-smartcv2.png" alt="SmartCV - Imagem 2">
-  <img src="assets/images/projeto-smartcv3.png" alt="SmartCV - Imagem 3">
+  <img src="assets/images/projeto-smartcv.png" alt="SmartCV - Análise de Currículos">
+  <img src="assets/images/projeto-smartcv2.png" alt="SmartCV - Pipeline de NLP">
+  <img src="assets/images/projeto-smartcv3.png" alt="SmartCV - Resultados">
 </div>
 
 - Desenvolvi uma **ferramenta de análise de currículos** usando **NLP e LLMs** para extrair insights e automatizar a triagem de candidatos.
@@ -72,9 +72,9 @@ Sou **Cientista de Dados** especializado em **Machine Learning, NLP e IA Generat
 **Tecnologias**: Python, Machine Learning, Scikit-learn, Pandas, Recomendação de Conteúdo
 
 <div class="project-images">
-  <img src="assets/images/projeto-linrecom.png" alt="LinRecom - Imagem 1">
+  <img src="assets/images/projeto-linrecom.png" alt="LinRecom - Sistema de Recomendação">
   <img src="assets/images/projeto-linrecom2.gif" alt="LinRecom - Demonstração" class="gif">
-  <img src="assets/images/projeto-linrecom3.png" alt="LinRecom - Imagem 2">
+  <img src="assets/images/projeto-linrecom3.png" alt="LinRecom - Resultados">
 </div>
 
 - Desenvolvi um **sistema de recomendação de conteúdo** usando técnicas de **Machine Learning e filtragem colaborativa**.
