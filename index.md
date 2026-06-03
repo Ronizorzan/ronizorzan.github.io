@@ -84,17 +84,40 @@ Sou **Cientista de Dados** especializado em **Machine Learning, NLP e IA Generat
 ---
 
 ### 5. [FeedbackFusion](https://github.com/Ronizorzan/FeedbackFusion)
-**Tecnologias**: Python, NLP, Sentiment Analysis, Scikit-learn, Pandas
+**Tecnologias**: Python, LangGraph, LangChain, Streamlit, Docker, PostgreSQL, LLMs (Groq/OpenAI)
 
 <div class="project-images">
-  <img src="assets/images/projeto-feedbackfusion1.png" alt="FeedbackFusion - Imagem 1">
-  <img src="assets/images/projeto-feedbackfusion2.png" alt="FeedbackFusion - Imagem 2">
-  <img src="assets/images/projeto-feedbackfusion3.png" alt="FeedbackFusion - Imagem 3">
+  <img src="assets/images/FeedbackFusion-Interface.gif" alt="FeedbackFusion - Interface" class="gif">
 </div>
 
-- Desenvolvi um **pipeline de processamento de linguagem natural (NLP)** para analisar sentimentos e categorizar feedbacks de clientes em larga escala.
-- **Impacto**: Identificação automática de **85% das reclamações urgentes**, permitindo uma resposta rápida do time de suporte.
-- **Tecnologias**: Implementei modelos de classificação de texto e extração de entidades para gerar insights acionáveis a partir de dados não estruturados.
+**🛍️ E-commerce AI Review Agent**
+
+Um **agente inteligente** focado em **extração de insights, análise de sentimentos e sintetização de feedbacks** para e-commerces. Conecta-se diretamente ao banco de dados da loja, lê milhares de avaliações de clientes e sintetiza os pontos fortes, fracos e o sentimento predominante de qualquer produto em segundos.
+
+---
+
+### 🎯 Impacto para o Negócio
+- **Agilidade na Tomada de Decisão**: Fornece relatórios imediatos sobre o que está agradando ou frustrando os clientes.
+- **Arquitetura Plug-and-Play**: Totalmente agnóstico. Basta alterar as credenciais no arquivo `db_config.yaml` para conectar o agente a *qualquer* banco de dados relacional.
+- **Interatividade**: O usuário pode inserir prompts customizados (ex: *"Foque apenas em comentários sobre a durabilidade"*), e o agente gera queries SQL dinâmicas para buscar exatamente o que foi pedido.
+
+---
+
+### ⚙️ Arquitetura do Agente
+O agente segue um pipeline robusto com auto-correção:
+1. **Mapeamento**: Lê os schemas das tabelas de produtos e reviews.
+2. **Tradução**: Converte a intenção do usuário em uma query SQL otimizada.
+3. **Validação**: Um nó de checagem revisa a query em busca de erros sintáticos.
+4. **Execução e Síntese**: Roda a query no banco, consolida os dados e formata um relatório humano e estruturado.
+
+---
+
+### 🚀 Tecnologias Utilizadas
+- **LangGraph & LangChain**: Orquestração do fluxo do agente.
+- **LLMs (Groq/OpenAI)**: Geração rápida de respostas e queries de banco de dados.
+- **Streamlit**: Interface de usuário fluida e responsiva.
+- **Docker**: Containerização para fácil deploy.
+- **PostgreSQL/SQL**: Integração com bancos de dados relacionais.
 
 ---
 
