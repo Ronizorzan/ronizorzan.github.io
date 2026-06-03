@@ -1,14 +1,19 @@
 # Configurações do Site - Versão Profissional
 
 # Informações Básicas
-title: Ronivan Zorzan Barbosa
-description: >-
-  Cientista de Dados | Machine Learning Engineer | Especialista em IA.
-  Transformando dados complexos em decisões estratégicas.
+title: Ronivan Zorzan Barbosa | Cientista de Dados & IA
+description: "Especialista em Machine Learning, NLP e IA Generativa. Transformando dados complexos em soluções estratégicas e escaláveis."
+url: "https://ronizorzan.github.io"
+author: Ronivan Zorzan Barbosa
+
+# SEO
+lang: pt-BR
+google_analytics: # Caso você tenha um ID (UA-XXXXXXXXX-X ou G-XXXXXXXXXX)
 
 # Plugins
 plugins:
   - jekyll-feed
+  - jekyll-sitemap # Plugin para gerar sitemap automaticamente
 
 # Configurações de Build
 markdown: kramdown

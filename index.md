@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Ronivan Zorzan Barbosa | Portfólio de Ciência de Dados"
+description: "Cientista de Dados focado em Machine Learning, NLP e IA Generativa. Veja meus projetos de detecção de fraudes, assistente financeiro e SmartCV."
 ---
 
 # 👋 Olá, sou Ronivan Zorzan Barbosa!
@@ -107,6 +109,45 @@ Sou **Cientista de Dados** especializado em **Machine Learning, NLP e IA Generat
 - **Disciplinas**: Python para Data Science, SQL, EDA, modelagem estatística (Scikit-learn, XGBoost, TensorFlow).
 
 ---
+
+## 💬 Pergunte sobre meus Projetos (Blog Interativo)
+
+Tenho um assistente inteligente integrado aos meus repositórios. Faça uma pergunta técnica sobre qualquer projeto acima e receba uma resposta em tempo real!
+
+<div class="webhook-section" style="background: #eef2f7; padding: 20px; border-radius: 10px; border: 1px solid #d1d9e6; margin: 20px 0;">
+    <input type="text" id="user-question" placeholder="Ex: Como o XGBoost foi configurado no projeto de fraudes?" style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 10px;">
+    <button onclick="askWebhook()" class="btn" style="width: 100%; cursor: pointer;">Enviar Pergunta</button>
+    
+    <div id="webhook-response" style="margin-top: 20px; padding: 15px; background: white; border-radius: 5px; display: none; border-left: 4px solid #3498db;">
+        <p><strong>Resposta do Assistente:</strong></p>
+        <div id="response-content" style="color: #444; font-size: 0.95rem;"></div>
+    </div>
+</div>
+
+<script>
+async function askWebhook() {
+    const question = document.getElementById('user-question').value;
+    const responseDiv = document.getElementById('webhook-response');
+    const contentDiv = document.getElementById('response-content');
+    
+    if (!question) return alert("Por favor, digite uma pergunta.");
+
+    contentDiv.innerText = "Consultando repositórios...";
+    responseDiv.style.display = 'block';
+
+    try {
+        const response = await fetch('SEU_WEBHOOK_URL_AQUI', { // Substituirei pela URL que você me passar
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message: question })
+        });
+        const data = await response.json();
+        contentDiv.innerText = data.reply || data.message || "Resposta recebida com sucesso!";
+    } catch (error) {
+        contentDiv.innerText = "Erro ao conectar com o assistente. Verifique se o webhook está ativo.";
+    }
+}
+</script>
 
 ## 🚀 Cases de Sucesso
 
